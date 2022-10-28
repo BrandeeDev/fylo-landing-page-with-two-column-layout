@@ -10,7 +10,7 @@ const Inscription = () => {
         <div className="group w-[304px] mt-8 lg:w-[536px] lg:h-[45px]">
             <input id="email" type="email" placeholder="Enter your email…" className="h-[40px] lg:h-full w-full lg:w-[320px] border-[0.625px] rounded-[3.125px] border-[#07043B] placeholder:pl-[24px] placeholder:email-placeholder "/>
             <label id="email"/>
-            <button className="block lg:inline mt-4 lg:mt-0 bg-[#2F65F8] w-full lg:w-[200px] lg:ml-4 h-[40px] lg:h-full  rounded-[3.125px] font-raleway font-bold text-sm leading-4 text-white ">Get Started</button>
+            <button className="block lg:inline mt-4 lg:mt-0 bg-[#2F65F8] hover:bg-[#6C9BFF] w-full lg:w-[200px] lg:ml-4 h-[40px] lg:h-full  rounded-[3.125px] font-raleway font-bold text-sm leading-4 text-white ">Get Started</button>
 
 
         </div>

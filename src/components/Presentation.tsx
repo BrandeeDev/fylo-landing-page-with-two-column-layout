@@ -20,8 +20,8 @@ const Presentation = () => {
                     <p className="mt-4 presentation-content lg:w-[529px]">Securely share files and folders with friends, family and
                         colleagues for live collaboration. No email attachments required!</p>
                 </div>
-                <a href="#" className="mt-9 flex flex-row justify-center items-center gap-x-[8px] border-b border-[#3DA08F] pb-[6px]  lg:self-start">
-                    <p className="font-open font-normal text-xs leading-4 text-[#3DA08F] lg:text-base lg:leading-[22px]">See how Fylo works</p>
+                <a href="#" className="mt-9 flex flex-row justify-center items-center gap-x-[8px] border-b border-[#3DA08F] hover:border-[#71DFCC] pb-[6px]  lg:self-start">
+                    <p className="font-open font-normal text-xs leading-4 text-[#3DA08F] hover:text-[#71DFCC] lg:text-base lg:leading-[22px]">See how Fylo works</p>
                     <img src={arrow} alt="" className="w-[12px] h-[12px] "/>
 
                 </a>

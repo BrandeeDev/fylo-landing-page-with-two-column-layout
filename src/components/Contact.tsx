@@ -42,10 +42,10 @@ const Contact = () => {
                 </div>
             </div>
             <ul className="flex flex-col justify-start items-start gap-y-4 list-none text-base leading-[22px] ">
-                {about.map(item => <li key={i++}>{item.trim()}</li>)}
+                {about.map(item => <li className="hover:text-[#6C9BFF]" key={i++}>{item.trim()}</li>)}
             </ul>
             <ul className="flex flex-col justify-start items-start gap-y-4 list-none text-base leading-[22px] ">
-                {contact.map(item => <li key={i++}>{item.trim()}</li>)}
+                {contact.map(item => <li className="hover:text-[#6C9BFF]" key={i++}>{item.trim()}</li>)}
             </ul>
             <img src={media} alt="" className="self-center"/>
 

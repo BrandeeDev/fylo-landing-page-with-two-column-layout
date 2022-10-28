@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .email-placeholder{
+        @apply font-raleway not-italic font-normal text-xs leading-[14px] tracking-[0.4px] text-[#C2C2C2];
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    }
+    .presentation-content{
+        @apply font-open not-italic font-normal text-sm leading-[21px] text-center text-[#615F7E] lg:text-left lg:text-base lg:leading-6;
+    }
+    .access-email-placeholder{
+        @apply font-raleway not-italic font-normal text-[10px] leading-3 text-[#C0C0C0] lg:text-xs lg:leading-[14px];
+    }
 }
